@@ -1,5 +1,5 @@
 # get_next_line
-This project introduces the concepts of _static variables_, _dynamic memory allocation_, _file descriptors_ and _macros_ while solving one simple task: that of using the Linux standard function `read()` to scan a file for _single lines_ (i.e. strings of chars with a single trailing `\n` (new line character)).
+This project introduces the concepts of _static variables_, _dynamic memory allocation_, _file descriptors_ and _macros_ while solving one simple task: that of using the Linux standard function `read()` to scan a file for _single lines_ (i.e. strings of chars ending in a single trailing `\n` (new line character)).
 
 ## Files
 * ```get_next_line.c```
@@ -31,3 +31,8 @@ To run the program, enter the following in the command prompt:
 You should expect to see the lyrics to Only Skin by Joanna Newsom printed in your terminal window. How cool is that?!
 
 ![Ys album cover](ys.png)
+
+## Final note
+If you're a 42 student struggling to understand this project, I got your back! Please refer to this Notion page that I wrote covering the general concepts related to this project and a practical to-do list of tasks to help you get started writing your own `get_next_line`! It's in Portuguese :cactus:
+
+[Acelera — Get_next_line](https://rodsmade.notion.site/Acelera-Get_next_line-4902aab835ef4b86a7c55d82cc5c19ec)
